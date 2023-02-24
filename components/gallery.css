@@ -1,0 +1,115 @@
+.issue-issue {
+  flex: 0 0 auto;
+  width: auto;
+  margin: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.issue-image {
+  width: 80%;
+  height: auto;
+  align-self: center;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  object-fit: initial;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.issue-text {
+  align-self: center;
+}
+
+
+
+
+
+
+
+@media(max-width: 1200px) {
+  .issue-image {
+    align-self: center;
+  }
+  .issue-text {
+    align-self: center;
+  }
+}
+@media(max-width: 991px) {
+  .issue-issue {
+    width: var(--dl-size-size-xxlarge);
+  }
+  .issue-text {
+    align-self: center;
+  }
+  .issue-root-class-name {
+    width: auto;
+  }
+  .issue-root-class-name1 {
+    width: auto;
+  }
+  .issue-root-class-name2 {
+    width: auto;
+  }
+  .issue-root-class-name3 {
+    width: auto;
+  }
+  .issue-root-class-name4 {
+    width: auto;
+  }
+  .issue-root-class-name5 {
+    width: auto;
+  }
+  .issue-root-class-name6 {
+    width: auto;
+  }
+}
+@media(max-width: 479px) {
+  .issue-image {
+    width: 80%;
+    height: auto;
+  }
+  .issue-root-class-name {
+    width: auto;
+    height: auto;
+    margin: 0px;
+    position: 0px;
+  }
+  .issue-root-class-name4 {
+    width: auto;
+    margin: 0px;
+  }
+  .issue-root-class-name5 {
+    margin: 0px;
+  }
+  .issue-root-class-name6 {
+    margin: 0px;
+  }
+}
+
+.gallery-gallery {
+  width: 100%;
+  display: grid;
+  padding: var(--dl-space-space-threeunits);
+  grid-gap: var(--dl-space-space-unit);
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  grid-template-columns: 1fr 1fr 1fr;
+}
+@media(max-width: 991px) {
+  .gallery-gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media(max-width: 767px) {
+  .gallery-gallery {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .gallery-gallery {
+    padding: var(--dl-space-space-halfunit);
+    align-self: center;
+    padding-top: 0px;
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,85 @@
+.current-issue-current-issue {
+  flex: 0 0 auto;
+  margin: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.current-issue-text {
+  align-self: center;
+}
+.current-issue-image {
+  width: 80%;
+  height: auto;
+  align-self: center;
+  box-shadow: 5px 5px 10px 2px #d4d4d4;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.current-issue-text3 {
+  align-self: center;
+}
+.current-issue-root-class-name {
+  width: 50%;
+  height: auto;
+  align-self: center;
+}
+@media(max-width: 1200px) {
+  .current-issue-current-issue {
+    width: 580px;
+    height: 574px;
+  }
+  .current-issue-text {
+    align-self: center;
+  }
+  .current-issue-image {
+    width: 416px;
+    height: 444px;
+    align-self: center;
+  }
+  .current-issue-text3 {
+    align-self: center;
+  }
+  .current-issue-root-class-name {
+    width: 50%;
+  }
+}
+@media(max-width: 991px) {
+  .current-issue-current-issue {
+    width: var(--dl-size-size-xxlarge);
+  }
+  .current-issue-text3 {
+    align-self: center;
+  }
+  .current-issue-root-class-name {
+    width: 50%;
+  }
+}
+@media(max-width: 767px) {
+  .current-issue-text {
+    font-size: 1.5em;
+    line-height: 1em;
+  }
+  .current-issue-root-class-name {
+    width: 100%;
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+}
+@media(max-width: 479px) {
+  .current-issue-current-issue {
+    width: 100%;
+  }
+  .current-issue-text {
+    font-size: 1em;
+    line-height: 1.2em;
+  }
+  .current-issue-root-class-name {
+    flex: initial;
+    width: 100%;
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+}
